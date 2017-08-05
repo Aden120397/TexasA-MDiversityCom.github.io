@@ -340,35 +340,28 @@ padding:1em;
 }
 
 
-
 #load_screen{
   background:white;
   color:black;
-
+  position:fixed;
   opacity:1;
   z-index:1000;
   top:0px;
   width:100vw;
-  height:100vh;
-
-  position: relative;
-  
-  
+  height:1600px;
+  text-align:center;
 }
+
 #load_screen>#loading{
- 
- 
+  color:black;
   
 }
 
 
 
 #loader-animation{
- 
- position: absolute;
+  position: absolute; /* or absolute */
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 
 }
-
