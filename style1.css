@@ -338,3 +338,34 @@ padding:1em;
     height:130vh;
   }
 }
+
+
+
+#load_screen{
+  background:white;
+  color:black;
+  position:fixed;
+  opacity:1;
+  z-index:1000;
+  top:0px;
+  width:100vw;
+  height:1600px;
+  text-align:center;
+}
+#load_screen>#loading{
+  color:black;
+  width:120px;
+  height:24px;
+  margin:300px auto;
+
+}
+
+
+
+#loader-animation{
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+
+}
+
