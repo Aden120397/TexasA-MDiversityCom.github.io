@@ -1,5 +1,13 @@
 
 
+window.addEventListener("load", function() {
+  var load_screen = document.getElementById("load_screen");
+  document.body.removeChild(load_screen);
+});
+
+
+
+
 // Select all links with hashes
 $('a[href*="#"]')
 // Remove links that don't actually link to anything
@@ -52,11 +60,6 @@ sr.reveal('image1', {duration:1000});
 sr.reveal('h1', {duration:1000});
 sr.reveal('h3', {duration:1000});
 
-
-window.addEventListener("load", function() {
-  var load_screen = document.getElementById("load_screen");
-  document.body.removeChild(load_screen);
-});
 
 
 
