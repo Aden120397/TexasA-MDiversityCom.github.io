@@ -350,12 +350,9 @@ padding:1em;
   top:0px;
   width:100vw;
   height:100vh;
-  display: -webkit-flex;
+
   display: flex;
-  -webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
+  
   
 }
 #load_screen>#loading{
@@ -366,8 +363,7 @@ padding:1em;
 
 
 #loader-animation{
- display: -webkit-flex;
-  display: flex;
+ 
   -webkit-align-items: center;
   align-items: center;
   -webkit-justify-content: center;
