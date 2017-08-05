@@ -349,8 +349,8 @@ padding:1em;
   z-index:1000;
   top:0px;
   width:100vw;
-  height:1600px;
-  text-align:center;
+  height:100vh;
+  
 }
 #load_screen>#loading{
  
