@@ -363,9 +363,13 @@ padding:1em;
 
 
 #loader-animation{
-  position: fixed; /* or absolute */
-  top: 50%;
-  left: 50%;
+position:relative;
+ margin-left:auto;
+ margin-right:auto;
+ -webkit-margin-start: auto;
+ -webkit-margin-end: auto;
+ -webkit-padding-start: 0;
+ display:block;
 
 }
 
