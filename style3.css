@@ -1,0 +1,260 @@
+html{
+  overflow-x:hidden;
+  margin:0;
+  padding:0;
+}
+
+/*NavBar*/
+.logo{
+  height:3em;
+  border-radius:100%;
+}
+
+
+
+.landingPage{
+  background: url('https://s-media-cache-ak0.pinimg.com/originals/ca/03/81/ca0381639c1047314bff2f164cb96c07.jpg');
+  height:45vh;
+  width:100vw;
+     /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation-duration:4s;
+ -webkit-animation-delay: 1s;
+  z-index:-10;
+}
+
+
+
+.landingPageText{
+  color:white;
+ 
+  z-index: -8;
+  position: absolute;
+  top:3.5em;
+   font-weight:lighter;
+  background:rgba(128, 0, 0, .5);
+  padding:.5em;
+  width:80vw;
+  
+}
+
+.accent{
+  font-weight:400;
+}
+
+.purpText{
+  color:maroon;
+  padding:1em; 
+  font-weight:100;
+  padding: 1em 1em;
+}
+
+
+
+.fa{
+  color:white;
+}
+
+.sgaLogo{
+  height:15em;
+  border-radius:100%;
+  padding-top:2em;
+  padding-bottom:1em;
+}
+
+
+.navTopping{
+  background-color:transparent;
+  color:black;
+  padding: 0 1.25em;
+  padding-top:5px;
+}
+
+.fbIm{
+  height:1em;
+  padding: 0 2px;
+}
+
+.contactUs{
+  font-weight:100;
+  display:inline;
+  color:gray;
+}
+
+
+.invDiv{
+  height:50vh;
+  width:100vw;
+  background: url('https://static.wixstatic.com/media/a4a57f_b5c27c49ac8849259328d875a6934d0a.jpg_srz_3075_1943_85_22_0.50_1.20_0.00_jpg_srz');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pick{
+  margin-top:1em;
+  color:white;
+  background:rgba(128,0,0,.5);
+  padding:.5em;
+  width:80vw;
+}
+
+
+
+.btn{
+  background-color:transparent;
+  color:white;
+  font-weight:lighter;
+    border-radius:3%;
+ /* outline: 1px white solid;*/
+  
+  outline: white 1px solid;
+ 
+
+  
+
+}
+
+
+.btn:hover{
+  color:maroon;
+  
+  background-color:white;
+  outline: 0px white solid;
+  border-radius:3%;
+ 
+}
+
+
+.invDiv1{
+  height:70vh;
+  width:100vw;
+  background: url('https://today.agrilife.org/wp-content/uploads/2014/03/wildflowers-at-agrilife.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pick1{
+  position:absolute;
+  margin-top:1em;
+  color:white;
+  background:rgba(128,0,0,.5);
+  padding:.5em;
+  right:0;
+  width:75vw;
+}
+
+.pickText{
+  position:absolute;
+  top:25vh;
+  margin-left:2vw;
+  color:white;
+  background:rgba(128,128,128,.8);
+  padding:3vh;
+  font-weight:300;
+  font-size:3.25vh;
+  margin-right:3vw;
+  line-height:1.5em;
+  text-align:center;
+  
+}
+
+
+
+/*++++++++ Footer text++++++++*/
+
+.socialFooter{
+
+  text-align:center;
+  }
+.linkFooter{
+   
+  text-align:center;
+  }
+.iconFooter{
+ 
+  text-align:center;
+  }
+
+.credFooter{
+ 
+  text-align:center;
+}
+
+
+
+.fbIm2{
+  height:.75em;
+  padding: 0 15px;
+}
+
+.divCoLogo{
+  height:10vh;
+  padding: 0em 1em;
+  border-radius:100%;
+  item-align:center;
+}
+
+.footerSpacer{
+  height:4vh;
+}
+
+.tamuLogoFooter{
+  height:15vh;
+}
+
+.linkFooter{
+  font-size:.4em;
+  font-weight:300;
+ 
+}
+
+.footerLinks{
+  color:maroon;
+}
+
+.footerCopyright{
+  color:maroon;
+  font-weight:normal;
+  font-size:1.75vh;
+}
+
+.footsub{
+  font-size:1.5vh;
+  font-weight:lighter;
+}
+
+.calendar{
+   display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*--- Media Queries----*/
+@media only screen and (max-width: 970px) {
+  .navTopping{
+    height:0vh;
+  }
+  
+  .landingPage{
+    height:60vh;
+  }
+
+}
+
+@media only screen and (max-width: 350px){
+  .landingPage{
+    height:90vh;
+  }
+}
