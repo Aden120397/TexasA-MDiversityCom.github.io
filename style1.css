@@ -360,13 +360,12 @@ padding:1em;
 
 
 #loader-animation{
-position:relative;
- margin-left:auto;
- margin-right:auto;
- -webkit-margin-start: auto;
- -webkit-margin-end: auto;
- -webkit-padding-start: 0;
- display:block;
+ display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 
 }
 
