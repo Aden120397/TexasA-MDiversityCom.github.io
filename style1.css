@@ -365,3 +365,10 @@ padding:1em;
   left: 50%;
 
 }
+
+
+@media only screen and (max-width: 322px){
+  .landingPageText{
+    bottom:3em;
+  }
+}
